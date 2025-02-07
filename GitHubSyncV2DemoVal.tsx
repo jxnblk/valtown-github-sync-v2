@@ -14,6 +14,7 @@ const html = `
 `;
 
 export default async function (req: Request): Promise<Response> {
+  console.log("GitHubSyncV2DemoVal", import.meta.url);
   return new Response(html, {
     headers: {
       "Content-Type": "text/html",
