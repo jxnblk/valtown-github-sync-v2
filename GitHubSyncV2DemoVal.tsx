@@ -12,7 +12,6 @@ const html = `
     background-color: tomato;
   }
   </style>
-  <meta http-equiv="refresh" content="10">
 </head>
 
   <body>
