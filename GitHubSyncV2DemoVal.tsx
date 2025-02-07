@@ -9,7 +9,7 @@ const html = `
     padding: 32px;
     font-family: system-ui, sans-serif;
     color: black;
-    background-color: tomato;
+    background-color: lime;
   }
   </style>
   <meta http-equiv="refresh" content="10">
@@ -24,7 +24,7 @@ const html = `
 </html>
 `;
 
-export default async function (req: Request): Promise<Response> {
+export default async function (_req: Request): Promise<Response> {
   console.log("GitHubSyncV2DemoVal", import.meta.url);
   return new Response(html, {
     headers: {
