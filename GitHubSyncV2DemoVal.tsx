@@ -1,9 +1,19 @@
 /** Demo val for GitHub sync */
 const html = `
 <html>
-  <head>
-    <title>GitHubSync test</title>
-  </head>
+<head>
+  <title>GitHubSync test</title>
+  <style>
+  body {
+    margin: 0;
+    padding: 32px;
+    font-family: system-ui, sans-serif;
+    color: black;
+    background-color: white;
+  }
+  </style>
+</head>
+
   <body>
     <h1>GitHubSync Test</h1>
     <p>
