@@ -9,7 +9,7 @@ const html = `
     padding: 32px;
     font-family: system-ui, sans-serif;
     color: black;
-    background-color: lime;
+    background-color: white;
   }
   </style>
   <meta http-equiv="refresh" content="10">
