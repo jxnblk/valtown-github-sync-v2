@@ -9,7 +9,7 @@ const html = `
     padding: 32px;
     font-family: system-ui, sans-serif;
     color: black;
-    background-color: tomato;
+    background-color: lightblue;
   }
   </style>
 </head>
